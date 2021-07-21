@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.10)
 #set(CHECK_INSTALL_DIR path/to/check))
 
 # Set some variables
-set(PROJECT_NAME ASETools)
+set(PROJECT_NAME CStarter)
 set(PROJECT_VERSION 0.1)
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
@@ -64,4 +64,4 @@ add_subdirectory(tests)
 
 # Unit tests
 enable_testing()
-add_test(NAME test_ase COMMAND test_ase)
+add_test(NAME test_hello COMMAND test_hello)
