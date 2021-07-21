@@ -2,6 +2,6 @@
 
 int main(int argc, char **argv)
 {
-    printf("Everything Works");
+    printf("Everything Works\n");
     return 0;
 }
