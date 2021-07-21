@@ -30,3 +30,6 @@ Complete the build by running:
 
     cmake --build .
 
+## Contribute
+
+I welcome all issues and pull requests. If you can make this better, go for it :)
